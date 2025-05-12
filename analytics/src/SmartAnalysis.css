@@ -1,0 +1,77 @@
+/* General styles */
+body {
+    background-color: #f0f8ff;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  #smart-analysis-container {
+    text-align: center;
+    padding: 50px 20px;
+  }
+  
+  #page-title {
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+  
+  #page-description {
+    color: #333;
+    font-size: 18px;
+    margin-bottom: 40px;
+  }
+  
+  /* Card layout */
+  #card-container {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 40px;
+  }
+  
+  .card {
+    background-color: white;
+    border-radius: 8px;
+    width: 250px;
+    padding: 20px;
+    text-align: center;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+  }
+  
+  .card:hover {
+    background-color: #00bcd4;
+    color: white;
+    transform: translateY(-5px);
+  }
+  
+  .card-icon {
+    font-size: 48px;
+    color: #00bcd4;
+    margin-bottom: 15px;
+  }
+  
+  #predictive-heading,
+  #anomaly-heading {
+    color: #00bcd4;
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  #predictive-description,
+  #anomaly-description {
+    color: #333;
+    font-size: 16px;
+  }
+  
+  /* Responsive layout for mobile */
+  @media (max-width: 768px) {
+    #card-container {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+  

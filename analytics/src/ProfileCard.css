@@ -1,0 +1,118 @@
+/* Page Title */
+.page-title {
+  font-size: 28px;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 20px;
+  margin-top: 0px;
+  text-align: center;
+}
+
+/* General Styles */
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f8ff; /* Lighter background to match the professional look */
+}
+
+/* Profile Container */
+.profile-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Profile and Horizontal Cards Wrapper */
+.profile-and-cards {
+  display: flex;
+  flex-wrap: nowrap; /* Prevent cards from wrapping to a new line */
+  justify-content: center; /* Centers the profile cards horizontally */
+  margin-bottom: 20px;
+  overflow-x: auto; /* Add horizontal scroll if cards exceed the container width */
+}
+
+
+/* Profile Card Styles */
+.card {
+  width: 300px; /* Fixed width for the cards */
+  min-width: 250px; /* Ensure the cards do not shrink too much */
+  padding: 25px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  text-align: left; /* Align content to the left */
+  border-left: 8px solid #00bcd4; /* Left border for the profile card */
+  background: linear-gradient(to right, #f0f8ff, #ffffff); /* Subtle gradient background */
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
+}
+
+.card h3 {
+  color: #333;
+  font-size: 22px;
+  margin-bottom: 10px;
+  font-weight: 600;
+  text-align: center; /* Center the profile name */
+}
+
+.card p {
+  color: #555;
+  font-size: 16px;
+  margin-bottom: 5px; /* Increased margin between paragraphs */
+  margin-top: 5px;
+}
+
+/* Admin's Message Card */
+.message-card {
+  width: 100%;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  margin-top: 30px; /* Adds space between the profile card and message card */
+  display: flex; /* Flexbox for horizontal layout */
+  align-items: center;
+  justify-content: flex-start; /* Aligns the message content to the left */
+  border-left: 8px solid #00bcd4; /* Same left border color as profile card */
+  background: linear-gradient(to right, #f0f8ff, #ffffff); /* Same gradient background as profile card */
+}
+
+.message-content {
+  width: 100%;
+  padding-left: 20px;
+}
+
+/* Centering the headline of the Admin's Message */
+.message-card h3 {
+  color: #333;
+  font-size: 20px;
+  margin-bottom: 15px;
+  font-weight: 600;
+  text-align: center; /* Center align the headline */
+}
+
+.message-card p {
+  color: #777;
+  font-size: 16px;
+  margin-bottom: 10px;
+  font-style: italic;
+}
+
+/* Background */
+.page-background {
+  background-color: #f0f8ff; /* Light blue background */
+  padding: 40px 0;
+  min-height: 100vh;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

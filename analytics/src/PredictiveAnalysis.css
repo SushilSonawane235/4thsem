@@ -1,0 +1,175 @@
+/* General container styles */
+.predictive-analysis-container {
+  font-family: 'Poppins', Arial, sans-serif; /* Use Poppins font for a modern look */
+  background-color: #f0f8ff; /* Light blue background */
+  padding: 20px;
+  border-radius: 8px;
+  max-width: 900px;
+  margin: 20px auto;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.predictive-analysis-title {
+  text-align: center;
+  color: #333;
+  font-size: 2.5em;
+  margin-bottom: 30px;
+  font-weight: 600;
+}
+
+/* File selection section */
+.file-upload-container {
+  background-color: #ffffff;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.file-upload-container h3 {
+  color: #333;
+  font-size: 1.2em;
+  margin-bottom: 15px;
+}
+
+.file-select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 1em;
+}
+
+button {
+  background-color: #00bcd4; /* Teal button color */
+  color: #fff;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.1em;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-weight: 500;
+}
+
+button:hover {
+  background-color: #008c9e; /* Dark teal hover color */
+}
+
+button:disabled {
+  background-color: #b0bec5; /* Disabled button color */
+  cursor: not-allowed;
+}
+
+/* File data display section */
+.file-data-container {
+  background-color: #ffffff;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  animation: fadeIn 0.5s ease;
+}
+
+.file-data-container h3 {
+  color: #333;
+  font-size: 1.2em;
+  margin-bottom: 15px;
+}
+
+pre {
+  background-color: #f9f9f9;
+  padding: 15px;
+  border-radius: 5px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  color: #444;
+  font-size: 0.9em;
+  line-height: 1.5;
+}
+
+/* Algorithm selection section */
+.algorithm-selection-container {
+  background-color: #ffffff;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.algorithm-selection-container h3 {
+  color: #333;
+  font-size: 1.2em;
+  margin-bottom: 15px;
+}
+
+.algorithm-select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 1em;
+}
+
+/* Result display section */
+.result-container {
+  background-color: #ffffff;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  animation: fadeIn 0.5s ease;
+}
+
+.result-container h3 {
+  color: #333;
+  font-size: 1.2em;
+  margin-bottom: 15px;
+}
+
+.result-container pre {
+  background-color: #f9f9f9;
+  padding: 15px;
+  border-radius: 5px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  color: #444;
+  font-size: 0.9em;
+  line-height: 1.5;
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Analysis Type Select Styling */
+.analysis-type-container select {
+  width: 100%;
+  padding: 12px 25px; /* Matching the padding of the button */
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px; /* Similar rounded corners to the button */
+  font-size: 1.1em;
+  background-color: #00bcd4; /* Teal background color */
+  color: white; /* White text for contrast */
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.analysis-type-container select:hover {
+  background-color: #008c9e; /* Dark teal hover color */
+}
+
+.analysis-type-container select:focus {
+  outline: none;
+  border-color: #00bcd4; /* Same as the button's background */
+}
